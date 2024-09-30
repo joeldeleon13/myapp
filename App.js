@@ -5,7 +5,7 @@ const App = () => {
   const [Texto, setTexto] = useState('');
   const handleChange=(valor)=>{
     setTexto(valor);
-    console.log(valor)
+    console.log(valor) 
   }
   return (
     <ScrollView>
@@ -19,7 +19,7 @@ const App = () => {
         />
          <Text>{Texto}</Text>
       <View>
-        <View style={{ backgroundColor: 'red', width: 150, height: 150 }} />
+        <View style={{ backgroundColor: 'blue', width: 150, height: 150 }} />
         <View style={{ backgroundColor: 'black', width: 150, height: 150 }} />
         <View style={{ backgroundColor: 'gray', width: 150, height: 150 }} />
         <Text style={{ fontSize: 30, fontWeight: 'bold' }}>Hola Mundo</Text>
